@@ -72,6 +72,9 @@ mediatek_setup_interfaces()
 	unielec,u7981-01*|\
 	wavlink,wl-wn536ax6-a|\
 	zbtlink,zbt-z8102ax|\
+	z8102ax-128m|\
+	z8102ax-64m|\
+	z8102ax-emmc|\
 	zbtlink,zbt-z8102ax-v2)
 		ucidef_set_interfaces_lan_wan "lan1 lan2 lan3 lan4" eth1
 		;;
